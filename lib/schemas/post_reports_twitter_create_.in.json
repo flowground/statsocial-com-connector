@@ -1,0 +1,17 @@
+{
+    "type": "object",
+    "properties": {
+        "twitter_id": {
+            "required": false,
+            "type": "integer"
+        },
+        "twitter_handle": {
+            "required": false,
+            "type": "string"
+        },
+        "filter": {
+            "required": false,
+            "type": "string"
+        }
+    }
+}

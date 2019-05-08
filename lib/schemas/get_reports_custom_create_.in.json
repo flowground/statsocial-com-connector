@@ -1,0 +1,13 @@
+{
+    "type": "object",
+    "properties": {
+        "upload_hash": {
+            "required": true,
+            "type": "string"
+        },
+        "filter": {
+            "required": false,
+            "type": "string"
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "type": "object",
+    "properties": {
+        "report_hash": {
+            "required": true,
+            "type": "string"
+        },
+        "baseline": {
+            "required": false,
+            "type": "integer"
+        },
+        "report_date": {
+            "required": false,
+            "type": "integer"
+        },
+        "sample": {
+            "required": true,
+            "type": "integer",
+            "default": 1
+        }
+    }
+}

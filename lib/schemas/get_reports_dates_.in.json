@@ -1,0 +1,9 @@
+{
+    "type": "object",
+    "properties": {
+        "report_hash": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

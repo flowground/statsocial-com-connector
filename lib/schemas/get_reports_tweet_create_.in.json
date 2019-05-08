@@ -1,0 +1,25 @@
+{
+    "type": "object",
+    "properties": {
+        "report_name": {
+            "required": true,
+            "type": "string"
+        },
+        "start_date": {
+            "required": true,
+            "type": "integer"
+        },
+        "end_date": {
+            "required": true,
+            "type": "integer"
+        },
+        "terms": {
+            "required": true,
+            "type": "string"
+        },
+        "filter": {
+            "required": false,
+            "type": "string"
+        }
+    }
+}

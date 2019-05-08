@@ -1,0 +1,14 @@
+{
+    "type": "object",
+    "properties": {
+        "upload_hash": {
+            "required": true,
+            "type": "string"
+        },
+        "ids": {
+            "required": true,
+            "type": "array",
+            "items": {}
+        }
+    }
+}
